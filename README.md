@@ -37,7 +37,7 @@ Este sistema é uma solução que irá propiciar aos profissionais da psicologia
   - **LEG.** este prefixo identifica os artefatos de cunho legais e regulatórios determinados por leis e regulamentos que irá descrever as especificações legais;
   - Ao final do prefixo, utilizamos a extensão **.md** para permitir a utilização da [Linguagem Markdown](https://www.markdownguide.org/) para formatar os artefatos de requisitos e legais, que possibilita criar artefatos organizados e de estrutura consistente. Ex.: **RF.01.01.md**, **RNF.02.md**, **RN.01.md**, **LEG.01**.
 
-### ÍNDICE
+## ÍNDICE
 
 Para melhorar facilidade de navegação, organização de conteúdo, melhora na compreensão, referenciar de maneira fácil cada requisito e para posterior atualização e revisões dos requisitos, este índice abaixo permite que os requisitos sejam rapidamente locanizadas e revisadas.
 
@@ -106,3 +106,34 @@ Para melhorar facilidade de navegação, organização de conteúdo, melhora na 
 [RN.04.md - Agendamentos e Notificações](documentacao/requisitos/regrasdenegocio/RN.04.md)  
 [RN.05.md - Gestão de Prontuários e Anotações Clínicas](documentacao/requisitos/regrasdenegocio/RN.05.md)  
 [RN.06.md - Protocolos de Segurança](documentacao/requisitos/regrasdenegocio/RN.06.md)  
+
+## Glossário de Termos Técnicos
+
+Nesta seção apresentamos este glossário que aborda os termos técnicos principais e suas definições no contexto do sistema para o qual os requisitos foram definidos, facilitando o entendimento e implementação das funcionalidades descritas.
+
+**Anamnese**: Processo de coleta de informações pessoais e históricas de um paciente, para entender o quadro clínico e condições de saúde, utilizado como base para diagnóstico e tratamento.
+
+**Cadastro de Usuários:** Funcionalidade que permite o registro das informações básicas de um usuário no sistema, como nome, endereço e dados de contato. No contexto do sistema, abrange psicólogos e clínicas que podem incluir especialidades.
+
+**Consulta**: Encontro programado entre um paciente e um profissional de saúde, como um psicólogo, para avaliação, diagnóstico ou tratamento.
+
+**Histórico de Atendimentos**: Registro de todas as consultas, atendimentos e anotações relacionadas a um paciente. Esse histórico pode ser acessado e revisado pelos profissionais para garantir continuidade no tratamento.
+
+**Login**: Processo de acesso ao sistema em que o usuário insere um nome de usuário e senha para autenticação. Esse recurso permite garantir que apenas usuários autorizados acessem o sistema.
+
+**Módulo**: Segmento do software com funcionalidades específicas. Cada módulo é responsável por um conjunto de funções no sistema, como o Módulo de Acesso, Módulo de Gestão de Pacientes, entre outros.
+
+**Notificação de Consulta**: Aviso enviado pelo sistema aos profissionais e/ou pacientes para lembrar sobre consultas agendadas. Pode ser feito via SMS, e-mail ou notificação push.
+
+**Permissões de Acesso**: Configurações que determinam o que cada tipo de usuário (psicólogo, administrador, paciente) pode acessar e modificar no sistema. Controla o nível de acesso de cada perfil para garantir segurança e privacidade.
+
+**Prontuário Eletrônico**: Registro digital das informações clínicas e de atendimento de um paciente, que inclui dados como histórico de consultas, anotações clínicas e documentos anexados (exames e relatórios médicos).
+
+**Relatório de Atendimento**: Documento gerado pelo sistema que resume informações e detalhes sobre os atendimentos de um paciente. Pode ser exportado em diferentes formatos, como PDF e CSV.
+
+**Requisitos Funcionais**: Especificações que definem o que o sistema deve fazer, detalhando as funcionalidades necessárias para atender as necessidades dos usuários e do negócio.
+
+**Reagendamento**: Funcionalidade que permite alterar a data e horário de uma consulta previamente agendada, garantindo flexibilidade para o paciente e o profissional.
+SMS: Serviço de Mensagens Curtas (Short Message Service) utilizado pelo sistema para enviar notificações ou informações rápidas via celular.
+
+**Usuário Administrador**: Perfil com permissões ampliadas para gerenciar contas de usuários, permissões de acesso, e configurar funcionalidades do sistema.
