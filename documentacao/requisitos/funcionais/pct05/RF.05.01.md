@@ -1,0 +1,3 @@
+## Definir Consultas ##
+
+O sistema deve permitir que os psicólogos adicionem, alterem e excluam  os horários de seus atendimentos. Estes horários ficarão disponíveis para que os pacientes façam o agendamento das consultas e sessões de acordo com os horários disponíveis no sistema. Os dados a serem inseridos serão a data, hora, local do atendimento, nome do psicólogo e número do registro profissional.
