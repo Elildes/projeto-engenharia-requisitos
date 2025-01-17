@@ -29,6 +29,8 @@ Este sistema é uma solução que irá propiciar aos profissionais da psicologia
 
     **e)** Para as necessidades determinadas por **leis e regulamentos**, os artefatos estão organizados no diretório [Requisitos Legais](documentacao/requisitos/legais/).
 
+    **f)** Para os materiais de **referências**, que identifica todas as fontes de informação consideradas na identificação dos requisitos, os artefatos estão organizados no diretório [Documentação de Referências](documentacao/referencias/).
+
 - **Padrão de nomenclatura**
   
   - **RF.** este prefixo identifica os artefatos de requisitos funcionais que irá descrever as especificações de requisitos;
