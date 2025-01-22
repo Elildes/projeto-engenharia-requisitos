@@ -31,6 +31,8 @@ Este sistema é uma solução que irá propiciar aos profissionais da psicologia
 
     **f)** Para os materiais de **referências**, que identifica todas as fontes de informação consideradas na identificação dos requisitos, os artefatos estão organizados no diretório [Documentação de Referências](documentacao/referencias/).
 
+    **g)** Para os **diagramas**, para melhor entendimento dos requisitos, os artefatos estão organizados no diretório [Diagramas](documentacao/diagramas/).
+
 - **Padrão de nomenclatura**
   
   - **RF.** este prefixo identifica os artefatos de requisitos funcionais que irá descrever as especificações de requisitos;
