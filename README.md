@@ -35,11 +35,13 @@ Este sistema é uma solução que irá propiciar aos profissionais da psicologia
 
 - **Padrão de nomenclatura**
   
-  - **RF.** este prefixo identifica os artefatos de requisitos funcionais que irá descrever as especificações de requisitos;
-  - **RNF.** este prefixo identifica os artefatos de requisitos não-funcionais que irá descrever as características de qualidades do sistema;
-  - **RN.** este prefixo identifica os artefatos referentes as regras de negócios (requisitos de domínio) que descreve termos que se referem às expressões das políticas, restrições, condições e decisões do sistema;
-  - **LEG.** este prefixo identifica os artefatos de cunho legais e regulatórios determinados por leis e regulamentos que irá descrever as especificações legais;
-  - Ao final do prefixo, utilizamos a extensão **.md** para permitir a utilização da [Linguagem Markdown](https://www.markdownguide.org/) para formatar os artefatos de requisitos e legais, que possibilita criar artefatos organizados e de estrutura consistente. Ex.: **RF.01.01.md**, **RNF.02.md**, **RN.01.md**, **LEG.01**.
+  Foi utilizado na padronização das nomenclaturas dos requisitos a seguinte convenção, que foi utilizada com base no padrão que contam na maioria dos trabalhos acadêmicos pesquisados.
+  - **PCT.** Este prefixo identifica o agrupamento dos artefatos de requisitos funcionais e não funcionais que irá descrever os módulos. Os dois números que está logo após este prefixo identifica o número do módulo;
+  - **RF.** Este prefixo identifica os artefatos de requisitos funcionais que irá descrever as especificações de requisitos. Os dois primeiros números que está logo após este prefixo identifica o número do módulo que o requisito pertence e os dois últimos números, identifica o número do requisito;
+  - **RNF.** Este prefixo identifica os artefatos de requisitos não-funcionais que irá descrever as características de qualidades do sistema. Os dois primeiros números que está logo após este prefixo identifica o número do módulo que o requisito pertence e os dois últimos números, identifica o número do requisito;
+  - **RN.** Este prefixo identifica os artefatos referentes as regras de negócios (requisitos de domínio) que descreve termos que se referem às expressões das políticas, restrições, condições e decisões do sistema. Os dois primeiros números que está logo após este prefixo identifica o número da regra de negócio;
+  - **LEG.** Este prefixo identifica os artefatos de cunho legais e regulatórios determinados por leis e regulamentos que irá descrever as especificações legais;
+  - Ao final de cada arquivo de cada requisito, utilizamos a extensão **.md** para permitir a utilização da [Linguagem Markdown](https://www.markdownguide.org/) para formatar os artefatos de requisitos, para possibilitar criar artefatos organizados e de estrutura consistente. Ex.: **RF.01.01.md**, **RNF.02.md**, **RN.01.md**, **LEG.01**.
 
 ## ÍNDICE
 
