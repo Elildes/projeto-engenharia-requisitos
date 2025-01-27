@@ -40,8 +40,8 @@ Este sistema é uma solução que irá propiciar aos profissionais da psicologia
   - **RF.** Este prefixo identifica os artefatos de requisitos funcionais que irá descrever as especificações de requisitos. Os dois primeiros números que está logo após este prefixo identifica o número do módulo que o requisito pertence e os dois últimos números, identifica o número do requisito;
   - **RNF.** Este prefixo identifica os artefatos de requisitos não-funcionais que irá descrever as características de qualidades do sistema. Os dois primeiros números que está logo após este prefixo identifica o número do módulo que o requisito pertence e os dois últimos números, identifica o número do requisito;
   - **RN.** Este prefixo identifica os artefatos referentes as regras de negócios (requisitos de domínio) que descreve termos que se referem às expressões das políticas, restrições, condições e decisões do sistema. Os dois primeiros números que está logo após este prefixo identifica o número da regra de negócio;
-  - **LEG.** Este prefixo identifica os artefatos de cunho legais e regulatórios determinados por leis e regulamentos que irá descrever as especificações legais;
-  - Ao final de cada arquivo de cada requisito, utilizamos a extensão **.md** para permitir a utilização da [Linguagem Markdown](https://www.markdownguide.org/) para formatar os artefatos de requisitos, para possibilitar criar artefatos organizados e de estrutura consistente. Ex.: **RF.01.01.md**, **RNF.02.md**, **RN.01.md**, **LEG.01**.
+  - **RL.** Este prefixo identifica os artefatos de cunho legais e regulatórios determinados por leis e regulamentos que irá descrever as especificações legais;
+  - Ao final de cada arquivo de cada requisito, utilizamos a extensão **.md** para permitir a utilização da [Linguagem Markdown](https://www.markdownguide.org/) para formatar os artefatos de requisitos, para possibilitar criar artefatos organizados e de estrutura consistente. Ex.: **RF.01.01.md**, **RNF.02.md**, **RN.01.md**, **RL.01.md**.
 
 ## ÍNDICE
 
@@ -92,7 +92,6 @@ Para melhorar facilidade de navegação, organização de conteúdo, melhora na 
 
 [RF.07.01.md - Gerenciar Usuários](documentacao/requisitos/funcionais/pct07/RF.07.01.md)  
 [RF.07.02.md – Gerenciar Permissões](documentacao/requisitos/funcionais/pct07/RF.07.02.md)  
-[RF.07.03.md – Integração de Serviços de Laboratório e Imagem](documentacao/requisitos/funcionais/pct07/RF.07.03.md)  
 
 [**Requisitos Não-Funcionais**](documentacao/requisitos/naofuncionais/)
 
@@ -112,6 +111,11 @@ Para melhorar facilidade de navegação, organização de conteúdo, melhora na 
 [RN.04.md - Agendamentos e Notificações](documentacao/requisitos/regrasdenegocio/RN.04.md)  
 [RN.05.md - Gestão de Prontuários e Anotações Clínicas](documentacao/requisitos/regrasdenegocio/RN.05.md)  
 [RN.06.md - Protocolos de Segurança](documentacao/requisitos/regrasdenegocio/RN.06.md)  
+
+[**Requisitos Legais**](documentacao/requisitos/legais/)
+
+[RL.01.md – Conformidade com a LGPD](documentacao/requisitos/legais/RL.01.md)  
+[RL.02.md – Adesão aos Padrões de HL7/FHIR](documentacao/requisitos/legais/RL.02.md)  
 
 ## Glossário de Termos Técnicos
 
