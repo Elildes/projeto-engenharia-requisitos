@@ -31,6 +31,8 @@ Este sistema é uma solução que irá propiciar aos profissionais da psicologia
 
     **f)** Para os materiais de **referências**, que identifica todas as fontes de informação consideradas na identificação dos requisitos, os artefatos estão organizados no diretório [Documentação de Referências](documentacao/referencias/).
 
+    **Obs.:** para fins didáticos, adicionamos aos documentos de referências o arquivo [ER - Documento de Requisitos](documentacao/referencias/ER_Documento_de_Requisitos.pdf/), que foi o principal documento que deu origem a todos os requisitos deste reposiório.
+
     **g)** Para os **diagramas**, para melhor entendimento dos requisitos, os artefatos estão organizados no diretório [Diagramas](documentacao/diagramas/).
 
 - **Padrão de nomenclatura**
@@ -42,6 +44,12 @@ Este sistema é uma solução que irá propiciar aos profissionais da psicologia
   - **RN.** Este prefixo identifica os artefatos referentes as regras de negócios (requisitos de domínio) que descreve termos que se referem às expressões das políticas, restrições, condições e decisões do sistema. Os dois primeiros números que está logo após este prefixo identifica o número da regra de negócio;
   - **RL.** Este prefixo identifica os artefatos de cunho legais e regulatórios determinados por leis e regulamentos que irá descrever as especificações legais;
   - Ao final de cada arquivo de cada requisito, utilizamos a extensão **.md** para permitir a utilização da [Linguagem Markdown](https://www.markdownguide.org/) para formatar os artefatos de requisitos, para possibilitar criar artefatos organizados e de estrutura consistente. Ex.: **RF.01.01.md**, **RNF.02.md**, **RN.01.md**, **RL.01.md**.
+
+- **Protótipo**
+
+  Os requisitos foram desenvolvidos e implementados, resultando em um protótipo criado com a plataforma FIGMA.
+
+  [Link do Protótipo GestorPsi](https://www.figma.com/community/file/1465765143520414305)
 
 ## ÍNDICE
 
